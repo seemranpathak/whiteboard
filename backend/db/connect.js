@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
- 
 
 connect().then(() => console.log('Database connected')).catch(err => console.log(err));
 

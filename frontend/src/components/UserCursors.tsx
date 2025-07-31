@@ -1,4 +1,4 @@
-// src/components/UserCursors.tsx
+
 import React, { useState, useEffect } from 'react';
 
 // Define type for a collaborator

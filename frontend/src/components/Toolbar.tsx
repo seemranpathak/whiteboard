@@ -1,4 +1,4 @@
-// src/components/Toolbar.tsx
+
 import React from 'react';
 import type { DrawingTool } from '../Whiteboard'; // Import DrawingTool type
 

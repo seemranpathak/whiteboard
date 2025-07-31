@@ -1,4 +1,4 @@
-// src/components/CollaboratorsList.tsx
+
 import React from 'react';
 
 // Define type for a collaborator

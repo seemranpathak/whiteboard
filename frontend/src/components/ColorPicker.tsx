@@ -1,4 +1,4 @@
-// src/components/ColorPicker.tsx
+
 import React from 'react';
 
 // Define props for the ColorPicker component
