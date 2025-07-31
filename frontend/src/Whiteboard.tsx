@@ -331,6 +331,7 @@ export const Whiteboard = () => {
   // Prepare collaborators list for display, including current user
   const displayCollaborators = [
     { id: userId, name: "You", color: userColorRef.current, isActive: true },
+    { id: userId, name: "neha", color: userColorRef.current, isActive: true },
     ...collaborators.filter(c => c.id !== userId)
   ];
 
@@ -341,10 +342,10 @@ export const Whiteboard = () => {
       <div className="flex items-center justify-between p-4 bg-card border-b border-border shadow-sm">
         <div className="flex items-center gap-4">
           <h1 className="text-xl font-semibold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-            DrawSync
+            CollaboraBoard
           </h1>
           <div className="h-4 w-px bg-border" />
-          <span className="text-sm text-muted-foreground">Untitled Board</span>
+          {/* <span className="text-sm text-muted-foreground">Untitled Board</span> */}
         </div>
         <CollaboratorsList collaborators={displayCollaborators} />
       </div>
